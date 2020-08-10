@@ -28,5 +28,6 @@ public class PatientSearchExceptionHandler extends ResponseEntityExceptionHandle
 	private ResponseEntity<Object> buildResponseEntity(ErrorResponse errorResponse) {
 		return new ResponseEntity<>(errorResponse, errorResponse.getStatus());
 	}
+	
 
 }
